@@ -14,7 +14,9 @@ class node
 	
 	/* Constructor that allocates
 	a new node with the given data
-	and NULL left and right pointers. */
+	and NULL left and right pointers.*/
+
+
 	node(int data)
 	{
 		this->data = data;
