@@ -33,7 +33,7 @@ int main() {
 	root->right->left=new Node(18);
 	root->right->left->left=new Node(16);
 	root->right->right=new Node(80);
-	int x=16;
+	int x=20;
 	
 	if(search(root,x))
 	    cout<<"Found";
