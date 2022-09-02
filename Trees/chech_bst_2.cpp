@@ -60,3 +60,9 @@ int main()
 
 	return 0;
 }
+
+
+//MOOON 4 LAYER  3500/3600
+//COLONY 5000 250000 sYNTAX 
+
+
