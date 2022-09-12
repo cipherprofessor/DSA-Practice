@@ -3,7 +3,7 @@
 using namespace std;
 class menu{
     public:
-    char Espresso1 ='Espresso With Milk', Espresso2= 'Espresso With Cream' ,Espresso3='Espresso With Latte' ;
+    char name[30],Espresso1 ='Espresso With Milk', Espresso2= 'Espresso With Cream' ,Espresso3='Espresso With Latte' ;
     public:
 	char Cappuccino1='Cappuccino With Milk',Cappuccino2='Cappuccino With Cream', Cappuccino3='Cappuccino With Latte';
     public:
@@ -13,7 +13,7 @@ class menu{
 
 int main()
 {
-	
+	menu orderitems;
 	int choice=0,pchoice,pchoice1, quantity;// time=40;
 	beginning:
 	system("CLS");
